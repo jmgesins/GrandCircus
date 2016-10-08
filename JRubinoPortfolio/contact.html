@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <meta http-equiv='X-UA-Compatible' content='ie=edge'>
+        <link type="text/css" rel="stylesheet" href='stylesheet.css'/>
+		    <title>Contact Jade Rubino</title>
+	</head>
+	<body>
+    <div class="container">
+	      <nav>
+            <a href="index.html" title="Jade Rubino Portfolio Home">Home</a>
+            <a href="about.html" title="About Jade Rubino">About</a>
+            <a href="contact.html" title="Contact Jade Rubino">Contact</a>
+        </nav>
+        <header>Get in Touch with Jade Rubino </header>
+        <article class="intro">
+            <p>I'd love to hear from you! Whether you would like to ask me a question or tell me a story, please feel free to contact me. I accept emails, connections on social networks, and even telegrams!</p>
+        </article>
+              <!--BLOCKQUOTE -->
+          <p><blockquote cite="http://www.brainyquote.com/search_results.html?q=learn%2C+computers">
+          <p>When you learn to read and write, it opens up opportunities for you to learn so many other things. When you learn to read, you can then read to learn. And it's the same thing with coding. If you learn to code, you can code to learn. </p>
+          <br>
+          <p><i>Mitchel Resnick</i></blockquote> 
+          </p>
+        <!--END BLOCKQUOTE-->
+        <section class="detail">
+          <h2>Social Networking</h2>
+            <p><a href="https://www.linkedin.com/in/JadeRubino" title="Jade Rubino LinkedIn Profile" target="blank">Connect with me on LinkedIn</a>
+            </p>
+
+          <h2>Contact Me</h2>
+          <!--START JAVASCRIPT CODE -->
+       <p>Not sure if I want to hear from you? Enter your name below to find out!</p>
+      <form>
+      <input type='text' id='firstName' placeholder='Your Name'>
+  <button type='button' onclick='changeWord()'>Click here to find out</button>
+  <p id='contactEncouragement'></p>
+       </form>
+     <!--END JAVASCRIPT CODE-->
+        <!--Start form-->
+          <form action="contact_form.php">
+              Name:<br>
+              <input type="text" name="name">
+              <br>
+              Email Address:<br>
+              <input type="email" name="email">
+              <br>
+              Message:<br>
+              <textarea name="message">
+              </textarea>
+              <br><br>
+              <input type="submit" value="Submit">
+          </form>
+          <!--END FORM-->
+       </section>
+       <br>
+       
+         <footer>
+          <p>&copy; Copyright 2016</p>
+        </footer>
+      </div>
+      <script src='jr_function.js'></script>
+    </body>
+</html>
